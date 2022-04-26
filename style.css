@@ -10,6 +10,14 @@ html, body {
   height: 100%;
 }
 
+::-moz-selection {
+  background: #c4180c44;
+}
+
+::selection {
+  background: #c4180c44;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -17,7 +25,7 @@ html, body {
 }
 
 header {
-  background: #377eff;
+  background: #c4170c;
   color: #fff;
   padding: 1em;
   text-align: center;
@@ -30,10 +38,6 @@ header h1 {
 
 section.main {
   margin-top: 50px;
-}
-
-section.main .container {
-  max-width: 800px;
 }
 
 section.main .container h1.manchete {
@@ -64,5 +68,36 @@ section.main .container hr {
   color: #ccc;
   height: 1px;
   margin: 2em 0;
+}
+
+section.conteudo {
+  margin-top: 50px;
+}
+
+section.conteudo .container {
+  max-width: 700px;
+}
+
+section.conteudo .container .img {
+  background-color: #ccc;
+  width: 600px;
+  height: 300px;
+}
+
+section.conteudo .container p.descricao {
+  margin-top: 10px;
+  font-size: .8em;
+  color: #555;
+}
+
+section.conteudo .container p.textMain {
+  margin-top: 50px;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #111;
+}
+
+section.conteudo .container p.textMain b {
+  color: #c4170c;
 }
 /*# sourceMappingURL=style.css.map */

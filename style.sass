@@ -7,13 +7,18 @@
 html, body 
     height: 100%;
 
+
+::selection
+    background: #c4180c44;
+
+
 .container 
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 2%;
 
 header
-    background: #377eff;
+    background: #c4170c;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -26,8 +31,6 @@ section.main
     margin-top: 50px;
 
     .container
-        max-width: 800px;
-
         h1.manchete
             color: #111;
             font-size: 3.5em;
@@ -52,3 +55,28 @@ section.main
             color: #ccc
             height: 1px;
             margin: 2em 0
+
+section.conteudo
+    margin-top: 50px;
+
+    .container 
+        max-width: 700px;
+
+        .img
+            background-color: #ccc;
+            width: 600px;
+            height: 300px;
+
+        p.descricao
+            margin-top: 10px;
+            font-size: .8em;
+            color: #555;
+
+        p.textMain
+            margin-top: 50px;
+            font-size: 1.2em;
+            line-height: 1.5em;
+            color: #111;
+
+            b
+                color: #c4170c;
