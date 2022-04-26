@@ -44,7 +44,25 @@ section.main .container h1.manchete {
 }
 
 section.main .container p.lide {
-  color: #333;
+  color: #555;
   font-size: 1.2em;
+}
+
+section.main .container p.autor {
+  color: #444;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 2em 0 .8em 0;
+}
+
+section.main .container p.data {
+  color: #333;
+  font-size: 1em;
+}
+
+section.main .container hr {
+  color: #ccc;
+  height: 1px;
+  margin: 2em 0;
 }
 /*# sourceMappingURL=style.css.map */
