@@ -100,4 +100,25 @@ section.conteudo .container p.textMain {
 section.conteudo .container p.textMain b {
   color: #c4170c;
 }
+
+@media screen and (max-width: 1000px) {
+  section.conteudo .container {
+    max-width: 100%;
+  }
+  section.conteudo .container .img {
+    width: 100%;
+  }
+  section.main .container h1.manchete {
+    font-size: 3em;
+  }
+  section.main .container p.lide {
+    font-size: 1em;
+  }
+  section.main .container p.autor {
+    font-size: .8em;
+  }
+  section.main .container p.data {
+    font-size: .8em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
