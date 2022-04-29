@@ -63,9 +63,12 @@ section.conteudo
         max-width: 700px;
 
         .img
-            background-color: #ccc;
-            width: 600px;
-            height: 300px;
+
+            img.charge
+            background-repeat: no-repeat;
+            background-size: auto;
+            max-width: 100%;
+            width: 578px;
 
         p.descricao
             margin-top: 10px;
@@ -73,7 +76,7 @@ section.conteudo
             color: #555;
 
         p.textMain
-            margin-top: 50px;
+            margin-top: 30px;
             font-size: 1.2em;
             line-height: 1.5em;
             color: #111;
@@ -81,13 +84,20 @@ section.conteudo
             b
                 color: #c4170c;
 
+        p.textMain:first-child()
+            margin-top: 50px
+
+footer
+    background: #c4170c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin-top: 50px;
+
 @media screen and (max-width: 1000px)
     section.conteudo
         .container
             max-width: 100%;
-
-            .img 
-                width: 100%;
 
     section.main
         .container
