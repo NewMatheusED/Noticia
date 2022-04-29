@@ -78,7 +78,7 @@ section.conteudo .container {
   max-width: 700px;
 }
 
-section.conteudo .container .img {
+section.conteudo .container .img img {
   background-repeat: no-repeat;
   background-size: auto;
   max-width: 100%;
@@ -100,10 +100,6 @@ section.conteudo .container p.textMain {
 
 section.conteudo .container p.textMain b {
   color: #c4170c;
-}
-
-section.conteudo .container p.textMain:first-child() {
-  margin-top: 50px;
 }
 
 footer {
